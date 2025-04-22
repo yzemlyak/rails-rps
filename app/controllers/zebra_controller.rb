@@ -42,5 +42,6 @@ class ZebraController < ApplicationController
   end
 
   def home
-    
+    render({ :template => "game_templates/home" })
+  end
 end
